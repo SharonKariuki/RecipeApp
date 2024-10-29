@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharon's recipe app</title>
+    <script src="https://kit.fontawesome.com/4bf947f3e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="banner">
+        
+        
+            <div class="logo"> <img src="recpes.png" alt="logo" class="logo"></div>
+            <div class="navbar"> <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="regLog.html">login</a></li>
+                <li><a href="#">Profile</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Recipes</button>
+                    <div class="dropdown-content">
+                        <a href="#">Breakfast</a>
+                        <a href="#">Main Dishes</a>
+                        <a href="#">Appetizers</a>
+                        <a href="#">Desserts</a>
+                    </div>
+                </div>
+            </ul></div>  
+            <div class="banner-content">
+                <!-- <div class="search1"> -->
+                    <div class="search">
+                        <input type="text" placeholder="search">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <h1>discover new recipes</h1>
+                    <p>Find the best recipes from around the world</p>
+                </div>
+                
+                <div class="bannerimg">
+                    <img src="banner.jpg"alt="" style="border-radius:100px; margin-left: 100px; width: 50%;">
+                </div>     
+                </div></div>
+            <!-- <div class="image"> -->
+                
+                
+                    
+            </div>          
+     <h1 style="text-transform: uppercase;text-align: center;padding: 40px; font-size: 50px;">Featured recipes</h1>
+    
+    <div class="featured">
+        <!-- <h1>Featured recipes</h1> -->
+        <div class="slider">
+    
+            <div class="list">
+                <div class="item active">
+                    <img src="risotto.avif" alt="Slider 1">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Risotto</h2>
+                        <p>"Creamy, savory rice dish cooked slowly with broth and often finished with cheese and fresh herbs."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="tacos.webp" alt="Slider 2">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Tacos</h2>
+                        <p>Flavorful tortillas filled with seasoned meat, fresh vegetables, and zesty toppings, perfect for a quick and satisfying meal.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="cass.avif" alt="Slider 3">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Casserole</h2>
+                        <p>Hearty, oven-baked dish combining various ingredients like meats, vegetables, and sauces into a comforting, all-in-one meal</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="churro.avif" alt="Slider 4">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Churros</h2>
+                        <p>Crispy, cinnamon-sugar coated dough pastries, often served with a rich chocolate dipping sauce for a sweet treat.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="bruss.avif" alt="Slider 5">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Bruschetta</h2>
+                        <p>Toasted bread slices topped with a fresh, flavorful mixture of tomatoes, garlic, basil, and olive oil.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation Arrows -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!-- Thumbnails -->
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="risotto.avif" alt="Thumbnail 1">
+                    <div class="content">risotto</div>
+                </div>
+                <div class="item">
+                    <img src="tacos.webp" alt="Thumbnail 2">
+                    <div class="content">tacos</div>
+                </div>
+                <div class="item">
+                    <img src="cass.avif" alt="Thumbnail 3">
+                    <div class="content">casseroler</div>
+                </div>
+                <div class="item">
+                    <img src="churro.avif" alt="Thumbnail 4">
+                    <div class="content">churros</div>
+                </div>
+                <div class="item">
+                    <img src="bruss.avif" alt="Thumbnail 5">
+                    <div class="content">Bruschetta</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="food-categories">
+        <h2 style="text-transform: uppercase;font-size: 40px; padding: 40px ;">Food Categories</h2>
+        <div class="card-container">
+            <div class="food-card">
+              <img src="breakfast.avif" alt="Breakfast" class="food-image">
+              <div class="food-content">
+                <h3>Breakfast</h3>
+                <p>Kick off your day with a burst of flavors and energy, enjoying a delightful medley of sweets and savory delights </p>
+                <button>View Recipes</button>
+              </div>
+            </div>
+      
+            <div class="food-card">
+              <img src="main.avif" alt="Main Dishes" class="food-image">
+              <div class="food-content">
+                <h3>Main Dishes</h3>
+                <p>Indulge in a burst of rich flavors with main dishes that satisfy your hunger and elevate your dining experience.</p>
+                <button>View Recipes</button>
+              </div>
+            </div>
+      
+            <div class="food-card">
+              <img src="appetizer.avif" alt="Appetizers" class="food-image">
+              <div class="food-content">
+                <h3>Appetizers</h3>
+                <p>Discover appetizers that deliver a burst of bold flavors, perfect for tantalizing your taste buds and setting the stage for a memorable meal.</p>
+                <button>View Recipes</button>
+              </div>
+            </div>
+      
+            <div class="food-card">
+              <img src="dessert.avif" alt="Desserts" class="food-image">
+              <div class="food-content">
+                <h3>Desserts</h3>
+                <p>Treat yourself to desserts that offer a sweet, indulgent burst of flavors, perfect for ending your meal on a deliciously satisfying note.</p>
+                <button>View Recipes</button>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+      
+    <script src="app.js"></script>
+</body>
+</html>

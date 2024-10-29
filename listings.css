@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f3f4f6;
+    color: #333;
+}
+.icons{
+    display: flex;
+}
+.sidebar{
+    position:fixed;
+    /* top: 0; */
+    /* left: 0; */
+    width: 200px;
+    height: 100%;
+    background-color: #696464;
+    padding: 20px;
+    box-shadow:  2px 0 50px rgba(0, 0,0,0.1);
+}
+.sidebar.categories ,.settings{
+    list-style: none;
+}
+.main-content{
+    margin-left: 200px;
+    padding: 20px;
+}
